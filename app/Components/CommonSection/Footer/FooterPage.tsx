@@ -78,7 +78,7 @@ export default function FooterPage() {
                             </aside>
                         </footer>
                         <div className="footer sm:footer-horizontal md:p-4 sm:p-2 md:text-right sm:text-center">
-                            <p className="w-full inline-block">Design by <a href="#" className="inline-block text-primary font-bold hover:text-[]">Sheikh Faysal Tareque</a> | All rights reserved</p>
+                            <p className="w-full inline-block">Design by <a href="https://github.com/Faysal07" className="inline-block text-primary font-bold hover:text-[]">Sheikh Faysal Tareque</a> | All rights reserved</p>
                         </div>
                     </div>
                 </div>
