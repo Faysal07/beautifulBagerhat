@@ -1,6 +1,6 @@
 export default function BannerPage(){
     return(
-        <div>
+        <div className="bg-[#f7f8f9]">
             <div className="container md:max-w-[1370px] m-auto">
                 <div className="grid md:grid-cols-1 sm:grid-cols-1">
                     <div className="carousel w-full">

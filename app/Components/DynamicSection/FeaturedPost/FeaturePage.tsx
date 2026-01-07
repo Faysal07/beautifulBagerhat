@@ -1,12 +1,6 @@
-// Image Load Here
-import BannerImageOne from "../../../../public/images/news-1.jpg";
-
 export default function FeaturePage() {
-    const BannerImageOne = String;
-
-
     return(
-        <div className="py-[30px]">
+        <div className="py-[30px] bg-[#f7f8f9]">
             <div className="container md:max-w-[1370px] m-auto">
                 <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
                     <h2 className="text-[16px] font-bold uppercase">Featured Posts</h2>
@@ -29,7 +23,7 @@ export default function FeaturePage() {
                             <img src="https://i.postimg.cc/kXNq768z/news-1.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="card-body">
-                            <h4 className="">Travel . Food .</h4>
+                            <h4 className="text-yellow-400 text-[15px] font-bold">Travel . Food .</h4>
                             <h2 className="card-title"><a href="#">Want fluffy japanese pancakes but can't fly to to Tokyo?</a></h2>
                             <p>02 January . 12 Mins Read . 23K Views</p>
                             <div className="card-actions">
@@ -44,7 +38,7 @@ export default function FeaturePage() {
                             <img src="https://i.postimg.cc/J4zrtgZP/news-7.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="card-body">
-                            <h4 className="">Fashion .</h4>
+                            <h4 className="text-yellow-400 text-[15px] font-bold">Fashion .</h4>
                             <h2 className="card-title"><a href="#">Put Yourself in Your Customers Shoe</a></h2>
                             <p>02 January . 12 Mins Read . 23K Views</p>
                             <div className="card-actions">
@@ -57,7 +51,7 @@ export default function FeaturePage() {
                             <img src="https://i.postimg.cc/wMfdhqL0/news-9.jpg" alt="Shoes" className="rounded-xl" />
                         </figure>
                         <div className="card-body">
-                            <h4 className="">Travel .</h4>
+                            <h4 className="text-red-500 text-[15px] font-bold">Travel .</h4>
                             <h2 className="card-title"><a href="#">Life and Death in the Empire of the Tiger.</a></h2>
                             <p>02 January . 12 Mins Read . 23K Views</p>
                             <div className="card-actions">
