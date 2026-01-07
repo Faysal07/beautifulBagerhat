@@ -42,9 +42,9 @@ export default function Traveltips() {
                             <p className="text-[17px] font-light">Hi I`m Faysal, Why scrambled text? That's exactly the point. By using text that's unreadable but maintains the general pattern of regular writing — including normal word length, spacing, and punctuation</p>
                             <h5 className="text-[15px] font-bold display-flex w-[100px]">Follow Me: </h5>
                             <ul>
-                                <li className="display-flex mx-[8px]"><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
-                                <li className="display-flex mx-[8px]"><a href="#"><i className="fa-brands fa-square-twitter"></i></a></li>
-                                <li className="display-flex mx-[8px]"><a href="#"><i className="fa-brands fa-github"></i></a></li>
+                                <li className="inline-flex mx-[8px]"><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
+                                <li className="inline-flex mx-[8px]"><a href="#"><i className="fa-brands fa-square-twitter"></i></a></li>
+                                <li className="inline-flex mx-[8px]"><a href="#"><i className="fa-brands fa-github"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,8 +79,32 @@ export default function Traveltips() {
                     </div>
                     <div className="card md:mx-[30px]">
                         <h3 className="text-[15px] font-bold mb-[8px] border-b-[2px] bg-[#f7f8f9] py-[15px] px-[10px] uppercase">Most Popular</h3>
-                        <div className="bg-base-100 shadow-sm p-[20px]">
-                            
+                        <div className="bg-base-100 shadow-sm p-[20px] my-[10px]">
+                            <div className="inline-block md:w-[230px] content-center">
+                                <a href="#"><h4 className="block w-full text-[18px] font-bold mb-[8px] hover:text-[#61a7d4]">Spending  some Quality Time With kids?</h4></a>
+                                <p className="block w-full text-[15px]">05 August . 150 Views</p>
+                            </div>
+                            <div className="inline-flex md:w-[100px] content-center">
+                                <img src="https://i.postimg.cc/RCpJbq3v/thumb-6.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div className="bg-base-100 shadow-sm p-[20px] my-[10px]">
+                            <div className="inline-block md:w-[230px] content-center">
+                                <a href="#"><h4 className="block w-full text-[18px] font-bold mb-[8px] hover:text-[#61a7d4]">Spending  some Quality Time With kids?</h4></a>
+                                <p className="block w-full text-[15px]">05 August . 150 Views</p>
+                            </div>
+                            <div className="inline-flex md:w-[100px] content-center">
+                                <img src="https://i.postimg.cc/Pq3JPRn0/thumb-7.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div className="bg-base-100 shadow-sm p-[20px] my-[10px]">
+                            <div className="inline-block md:w-[230px] content-center">
+                                <a href="#"><h4 className="block w-full text-[18px] font-bold mb-[8px] hover:text-[#61a7d4]">Spending  some Quality Time With kids?</h4></a>
+                                <p className="block w-full text-[15px]">05 August . 150 Views</p>
+                            </div>
+                            <div className="inline-flex md:w-[100px] content-center">
+                                <img src="https://i.postimg.cc/HnQT4SF1/thumb-8.jpg" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
